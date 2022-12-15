@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<AppSettings>
+	<targetSize>8</targetSize>
+	<alphaImgCnvJpg>false</alphaImgCnvJpg>
+	<jpgQuality>85</jpgQuality>
+	<fixidTop>false</fixidTop>
+	<autoCopy>false</autoCopy>
+	<autoDelete>false</autoDelete>
+	<autoExit>false</autoExit>
+	<autoStart>false</autoStart>
+	<skipCopy>false</skipCopy>
+</AppSettings>

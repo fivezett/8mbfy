@@ -13,3 +13,4 @@ namespace _8mbfy
             return File.GetAttributes(filePath).HasFlag(FileAttributes.Directory);
         }
     }
+}

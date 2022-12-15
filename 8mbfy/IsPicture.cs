@@ -9,10 +9,8 @@ namespace _8mbfy
 {
     internal class IsPicture
     {
-        static public bool isPicture(string filePath)
+        static public string isPicture(string filePath)
         {
-            if (IsDirectory.isDirectory(filePath))
-                return false;
             string fileEx = Path.GetExtension(filePath).ToLower();
             switch (fileEx)
             {
@@ -21,10 +19,10 @@ namespace _8mbfy
                 case ".png":
                 case ".bmp":
                 case ".gif":
-                    return true;
+                    return fileEx;
                     break;
                 default:
-                    return false;
+                    return "";
                     break;
             }
         }
