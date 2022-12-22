@@ -58,7 +58,7 @@
             this.copyButton.Name = "copyButton";
             this.copyButton.Size = new System.Drawing.Size(173, 23);
             this.copyButton.TabIndex = 1;
-            this.copyButton.Text = "Copy";
+            this.copyButton.Text = "コピー";
             this.copyButton.UseVisualStyleBackColor = true;
             this.copyButton.Click += new System.EventHandler(this.copyButton_Click);
             // 
